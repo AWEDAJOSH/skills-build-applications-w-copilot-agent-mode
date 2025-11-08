@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background: transparent;
+}
+
+.App-logo {
+  height: 60px;
+  margin-right: 16px;
+  vertical-align: middle;
+  float: left;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(34,46,80,0.12);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background: linear-gradient(90deg, #222e50 0%, #0077b6 100%);
+  color: #fff;
+  padding: 32px 0 16px 0;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-bottom: 4px solid #00b4d8;
+}
+
+.App-link {
+  color: #00b4d8;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.App-link:hover {
+  color: #0077b6;
+  text-decoration: underline;
+}
+/* Navigation menu styles */
+.navbar {
+  background: linear-gradient(90deg, #00b4d8 0%, #90e0ef 100%);
+  padding: 12px 24px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0,180,216,0.08);
+}
+
+.navbar a {
+  color: #222e50;
+  margin: 0 16px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+
+.navbar a:hover {
+  color: #0077b6;
+}
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #0077b6;
+  font-weight: 700;
+  margin-top: 24px;
+}
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 24px 0;
+  background: #f1f8ff;
+  box-shadow: 0 2px 8px rgba(0,119,182,0.08);
+}
+
+th, td {
+  padding: 12px 16px;
+  border: 1px solid #90e0ef;
+  color: #222e50;
+}
+
+th {
+  background: #00b4d8;
+  color: #fff;
+  font-weight: 600;
+}
+/* Buttons */
+button, .btn {
+  background: linear-gradient(90deg, #00b4d8 0%, #0077b6 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 8px;
+  box-shadow: 0 2px 8px rgba(0,119,182,0.12);
+  transition: background 0.2s, color 0.2s;
+}
+
+button:hover, .btn:hover {
+  background: linear-gradient(90deg, #0077b6 0%, #00b4d8 100%);
+  color: #f1f8ff;
+}
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  color: #222e50;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
